@@ -1,0 +1,11 @@
+.container {
+  margin: auto;
+  /* Center vertically and horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child {
+  padding-top: 2em;
+}
