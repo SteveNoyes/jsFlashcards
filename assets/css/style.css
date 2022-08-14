@@ -1,11 +1,61 @@
+body {
+  font-size: 16px;
+  background-color: grey;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.grow {
+transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+transform: scale(1.1);
+}
+
 .container {
-  margin: auto;
-  /* Center vertically and horizontally */
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .child {
-  padding-top: 2em;
+  margin-top: 6em;
+  padding: 1em 0;
+  box-shadow: 7px 7px 3px #aaaaaa;
+  background-color: white;
+}
+
+.title {
+  border-bottom: 1px solid black;
+  padding-bottom: .2em;
+  margin-bottom: 2em;
+}
+
+.question {
+
+}
+
+.term {
+
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.btnContainer button {
+  padding: 1em 0;
+  margin: 1em 0;
+}
+
+.btnContainer button:hover {
+  cursor: pointer;
 }

@@ -1,20 +1,6 @@
-This is a set of flashcards, questions followed by a set of choices. 
+This is a set of flashcards, questions followed by a set of choices.
 Once an answer is selected the card flips over and either reveals that
 the right answer was selected or that no and give the right answer
 
-the app keeps track of right and wrong answers and calculates the amount of 
-correct answers and returns that percentage value at the end. 
-
-one question
-
-how would you write out hello world to the console in Javascript?
-
-<console.print = hello world>
-
-console.printf() {
-  'hello world';
-}
-
-console.log('hello world');
-
-consoleLog = 'hello world';
+the app keeps track of right and wrong answers and calculates the amount of
+correct answers and returns that percentage value at the end.
